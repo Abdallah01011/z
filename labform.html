@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            text-align: center;
+            border: solid orangered 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <a href="build.html" target="_blank"> build</a> <br>
+    <a href="index.html" title="go to index html page">index</a> -->
+
+
+
+    <div class="A" style="text-align: center; background-color: antiquewhite ;border: solid wheat;">
+        <form action="Thankyou.html" method="get">
+            <h1>Enter your information</h1>
+            <hr><br>
+            <input type="hidden" id="uID" name="user id">
+            <label for="Fname">First Name :</label>
+            <input type="text" id="Fname" placeholder="Your first Name" name="user firstname" autofocus="" required>
+            <br><br>
+            <label for="Lname">Last Name :</label>
+            <input type="text" id="Lname" placeholder="your last Name" name="user lastname" required>
+            <hr><br>
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email" placeholder="your mail" required>
+            <hr><br>
+            <label for="Birth Date"><b> Birth Date: </b></label>
+            <input type="date" name="Birth Date" id="Birth Date">
+            <hr><br>
+            <label for="pass">password : </label>
+            <input type="password" name="pass" id="pass" placeholder="write complix password" minlength="11"
+                maxlength="20">
+            <br><br>
+            <label for="repeat-password">Repeat Password:</label>
+            <input type="password" id="repeat-password" name="repeat-password" placeholder="write the same password"
+                required title="Passwords must match">
+            <hr><br>
+            <label for="pic">Your picture</label>
+            <input type="file" id="pic" name="user pic">
+            <br>
+            <hr>
+            <!-- <label for="r">Are you not rebot </label>
+            <input type="checkbox" name="" id="r"> -->
+
+            <div class="AA">
+                <label for="s">choose your <mark>universty</mark> </label>
+                <br>
+                <select name="universty" id="s">
+                    <optgroup label="in Assuit">
+                        <option value="a1">Assuit</option>
+                        <option value="a2">sphenx</option>
+                        <option value="a3">badr</option>
+                    </optgroup>
+                    <optgroup label="in cairo">
+                        <option value="b3">giza</option>
+                        <option value="b3">cairo</option>
+                        <option value="b3">ain shaims</option>
+                    </optgroup>
+                </select>
+            </div>
+            <hr>
+            <fieldset>
+                <legend> GENDER : </legend>
+                <label for="malegen">Male</label>
+                <input type="radio" id="malegen" value="male" name="gender">
+                <label for="femalegen">female</label>
+                <input type="radio" id="femalegen" value="female" name="gender">
+            </fieldset>
+            <hr>
+            <div>
+                <h3> Interests </h3>
+                <label for="pro">Programming</label>
+                <input type="checkbox" id="pro" name="interests1" value="Programming">
+
+                <label for="reading"> Read </label>
+                <input type="checkbox" id="reading" name="interests2" value="reading">
+
+                <label for="swimming">swimming</label>
+                <input type="checkbox" id="swimming" name="interests3" value="swimming">
+            </div><br>
+            <hr>
+
+            <label for="tarea">
+                <h4>Write about you</h4>
+            </label>
+            <textarea name="tarea" id="tarea">
+
+                </textarea><br>
+            <hr>
+
+            <!-- <a href="about.html">
+            <label for="terms">I Agree</label></a> -->
+            <input type="checkbox" id="terms" required>
+            <label for="terms">
+                <a href="terms-and-conditions.html" target="_blank">I agree to the terms and conditions</a></label>
+            <hr>
+            <!-- <label for="gpa">Enter your GPA : </label>
+            <br>
+            <input id="gpa" type="number">
+            <hr>
+             -->
+
+            <input type="submit" value="Submit">
+            &nbsp;&nbsp;&nbsp;
+            <input type="reset" value="reset">
+            <hr><br>
+            <p><i>thank you so much </i></p>
+
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>

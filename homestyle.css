@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+}
+div{
+    overflow:hidden;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    padding:  20px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+}
+
+.links li {
+    margin: 0 15px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    /* font-weight: ; */
+}
+
+.links a:hover {
+    
+    background-color: rgb(255, 132, 88);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.logo{
+    
+    padding: 5px;
+}
+/*-------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(255, 244, 248);
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+ /* .image img {
+    max-width: 100%;
+    height: auto;
+} */
+
+input[type=text] {
+    border: 1px  #ff0000;
+    border-radius: 30px;
+    width: 200px;
+    padding: 20px;
+    background-color:rgb(244, 220, 198) ;
+  }
+
+ input[type=text]:hover {
+    background-color: orange;
+ } 
+
+/* 
+input[button]:hover{
+    background-color: #ff0000;
+
+} */
+
+/*--------------*/
+
+
+.container2 {
+    display: flex;
+    
+
+    text-align: center;
+    align-items: center;
+}
+
+.container1sub2{
+    border: solid rgb(146, 146, 146) 1px;
+    border-radius: 20px;
+
+    display: flex;
+    text-align: center;
+
+    margin: 100px;
+    height: 170px ;
+    width: 800px;
+}
+
+.container2sub2{
+    border: solid rgb(146, 146, 146) 1px;
+    border-radius: 20px;
+
+    display: flex;
+    text-align: center;
+    margin: 100px;
+}
+
+
+.container3sub2{
+    border: solid rgb(146, 146, 146) 1px;
+    border-radius: 20px;
+    height: 160px;
+
+    display: flex;
+    text-align: center;
+    margin: 100px;
+}
+
+/* .pharmacy{
+padding:10px ;
+margin: 1px ;} */
+ /*heeeeeeeeeeeeeeeeeeeeer*/
+
+a:visited {
+    background-color: black;
+}
+
+
+
+
+.container3 {
+    display: flex;
+    
+
+    text-align: center;
+    align-items: center;
+}
+
+.container1sub3{
+    border: solid rgb(146, 146, 146) 4px;
+    border-radius: 20px;
+
+    display: flex;
+    text-align: center;
+/* padding: 3px; */
+    margin: 150px;
+    height: 170px ;
+    width: 800px;
+}
+
+.container2sub3{
+    border: solid rgb(146, 146, 146) 4px;
+    border-radius: 20px;
+
+    display: flex;
+    text-align: center;
+    margin: 150px;
+    
+    height: 170px ;
+    width: 800px;
+}
+
+
+
+.last {
+    display: flex;
+    
+
+    text-align: center;
+    align-items: center;
+}
+
+div a:visited {
+    color: black; /* Keeps the link color the same as the surrounding text */
+    text-decoration: none; /* Remove underline */
+}
+
